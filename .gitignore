@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Never commit real lab inventory — samples are whitelisted below
+data/*.csv
+data/*.CSV
+!data/sample_inventory.csv
+!data/sample_inventory_zh.csv
+
+# Generated at runtime
+missing_report_*.csv
